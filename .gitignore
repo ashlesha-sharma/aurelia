@@ -1,0 +1,27 @@
+# IDE / Editor folders
+.vscode/
+.idea/
+.DS_Store
+
+# Dependencies (Never push these, they are huge)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# SENSITIVE DATA (CRITICAL)
+# This prevents your TMDB API key from being stolen
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+thumbs.db
+desktop.ini
